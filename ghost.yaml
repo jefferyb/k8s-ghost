@@ -25,6 +25,7 @@ spec:
       containers:
         - name: ghost
           image: ghost:alpine
+          imagePullPolicy: Always
           env:
             - name: url
               value: http://yourdomain.com
